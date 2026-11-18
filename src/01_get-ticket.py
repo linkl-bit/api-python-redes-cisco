@@ -7,8 +7,8 @@ headers = {
 }
 
 body_json = {
-    "username": "cisco",
-    "password": "cisco123!"
+    "username": "admin",
+    "password": "grupo06"
 }
 
 resp = requests.post(api_url, json.dumps(body_json), headers=headers)

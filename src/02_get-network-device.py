@@ -2,7 +2,7 @@ import json
 import requests
 api_url = "http://localhost:58000/api/v1/network-device"
 
-headers={"X-Auth-Token": "NC-144-d131174a867340c3a5a8-nbi"}
+headers={"X-Auth-Token": "NC-9-e188a52ddab34c49b6e5-nbi"}
 
 resp = requests.get(api_url, headers=headers)
 
