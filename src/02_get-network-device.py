@@ -17,4 +17,4 @@ print()
 networkDevices = response_json["response"]
 
 for networkDevice in networkDevices:
-    print(networkDevice["hostname"], "\t", networkDevice["platformId"], "\t", networkDevice["managementIpAddress"])
+    print(networkDevice.get("hostname","(sin nombre)"), "\t", networkDevice.get("platformId",""), "\t", networkDevice.get("managementIpAddress",""))
